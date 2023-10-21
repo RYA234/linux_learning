@@ -1,0 +1,63 @@
+
+用語調べたためメモ
+
+## ポート関係
+
+### /etc/services ファイル
+
+プロトコルとポート番号を記したファイル
+
+https://linuc.org/study/knowledge/511/
+
+
+### /etc/protocols ファイル
+プロトコルの文字→数字　を記したファイル
+
+プログラム言語のEnumみたいな役割か？
+
+https://www.ibm.com/docs/ja/aix/7.3?topic=formats-protocols-file-format-tcpip
+
+
+
+## DNS関係
+
+### /etc/hosts
+
+IPアドレス→ホスト名を記したファイル
+
+簡易DNSサーバーっぽい
+
+https://wa3.i-3-i.info/word11760.html
+
+
+### /etc/nsswitch.conf
+ホスト名の名前解決には、/etc/hostsやDNSなどがある。
+順番を指定するためのファイル。
+
+
+https://wa3.i-3-i.info/word11783.html
+
+
+### /etc/resolv.conf
+問い合わせるDNSサーバのIPアドレスを指定するファイル
+
+
+https://linuc.org/study/knowledge/507/
+
+リゾルパ
+
+## IPアドレス　サブネット
+
+### /etc/sysconfig/network-scripts/ifctg-XXXX
+
+デバイス毎のIPアドレスやサブネットを定義しているファイル
+
+/etc/sysconfig/network-scripts/以下にipv6 wireless isdnがある
+
+CentOS用
+
+
+
+
+
+
